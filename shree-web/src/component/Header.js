@@ -27,8 +27,8 @@ const styles = theme => ({
   },
   bigAvatar: {
     margin: 10,
-    width: 60,
-    height: 60,
+    width: 40,
+    height: 40,
     backgroundImage:"./shreecomp.jpeg"
   },
   root: {
@@ -253,3 +253,4 @@ Header.propTypes = {
 };
 
 export default withStyles(styles)(Header);
+
