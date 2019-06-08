@@ -1,4 +1,5 @@
 import React from 'react'
+//added test comment
 const FloatingBanner = (props) => {
     return (
         <div>
