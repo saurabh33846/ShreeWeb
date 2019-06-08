@@ -18,7 +18,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
 import { createMuiTheme } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
+//import purple from '@material-ui/core/colors/purple';
 import Avatar from '@material-ui/core/Avatar';
 import shreecomp from './shreecomp.jpeg'
 const styles = theme => ({
