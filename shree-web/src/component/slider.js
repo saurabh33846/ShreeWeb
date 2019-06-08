@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react'// javascript destructuring 
 import LeftArrow from './LeftArrow'
 import RightArrow from './RightArrow'
 import Slide from './slide'
@@ -89,6 +89,7 @@ export default class Slider extends Component {
                 </div>
                 <LeftArrow className = "left-arrow" goToPreviousSlide={this.goToPreviousSlide}/>
                 <RightArrow className = "right-arrow" goToNextSlide={this.goToNextSlide} />
+                
             </div>
         )
     }
