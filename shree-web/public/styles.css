@@ -58,7 +58,7 @@
       
     }
 
-
+/*floating banner styling*/
 
 
   .floatingCardContainer{
@@ -130,3 +130,43 @@
         display: none;
       }
     }
+    /*footerstyling*/
+    .footerhading{
+        width: 20%;
+        height: 7.5%;
+        background-color: purple;
+        text-align: center;
+        color: white;
+        padding-top: .5%;
+        position: absolute;
+        top: 88%;
+        left: 40%;
+        font-size: 1.5vw;
+        border-radius: 5px;
+        z-index: 1;
+      }
+      .servicename{
+        font-size: .5vw;
+      }
+      .aboutcompany ,.creativemarketing{
+        height: 30%;
+        width: 50%;
+        /*float: left;*/
+        text-align: center;
+        background-color: white;
+        /*z-index: -1;*/
+        font-weight: bolder;
+        font-size: 1vw;
+        font-family: Inconsolata;
+      }
+      .aboutcompany{
+        position: absolute;
+        top: 90%;
+        border-right: 2px solid purple;
+      }
+      .creativemarketing{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        border-left: 2px solid purple;
+      }

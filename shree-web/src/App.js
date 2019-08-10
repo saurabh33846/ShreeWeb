@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Header from "./component/Header"
 import Slider from "./component/slider"
 import FloatingBanner from "./component/floatingCard"
+import Footer from "./component/footer"
+
 class App extends Component {
     render() {
         return (
@@ -12,6 +14,7 @@ class App extends Component {
                 <Slider/>
                 <FloatingBanner/>
                 </div>
+                <Footer />
                 
             </div>)
     }
