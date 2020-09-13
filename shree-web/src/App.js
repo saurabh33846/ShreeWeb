@@ -3,6 +3,7 @@ import Main from "./component/main"
 import Header from "./component/Header"
 import Slider from "./component/slider"
 import FloatingBanner from "./component/floatingCard"
+<<<<<<< HEAD
 import { Button, CircularProgress, TextField } from '@material-ui/core';
 import flag from './assets/Flag_of_India.svg'
 import HeaderTabs from './component/HeaderTabs'
@@ -83,6 +84,9 @@ for(let i=1;i<=10;i++){
 if (!myFirebase) {
     myFirebase = firebase.initializeApp(firebaseConfig);
 }
+=======
+import Footer from "./component/footer"
+>>>>>>> c8a8784a773d24f4c898616acefe138e925e1d71
 
 class App extends Component {
     constructor(props){
@@ -195,6 +199,7 @@ class App extends Component {
                 {/* <Main/> */}
                 {posterListCmp}
                 </div>
+<<<<<<< HEAD
                 </Route>
                 <Route path="/" exact redi>
                 <Redirect
@@ -235,6 +240,11 @@ const mapStateToProps = state =>{
 const mapDispatchToProps = dispatch =>{
     return {
         setUser : (user)=> dispatch({type:'SET-USER', payload:user}),
+=======
+                <Footer />
+                
+            </div>)
+>>>>>>> c8a8784a773d24f4c898616acefe138e925e1d71
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App);
